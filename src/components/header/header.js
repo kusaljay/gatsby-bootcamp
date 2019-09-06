@@ -2,7 +2,7 @@ import React from 'react';
 import { Link, graphql, useStaticQuery } from 'gatsby';
 import headerStyles from './header.module.scss';
 
-const header = () => {
+const Header = () => {
   const data = useStaticQuery(graphql`
     query{
       site{
@@ -32,4 +32,4 @@ const header = () => {
   )
 }
 
-export default header;
+export default Header;

@@ -2,7 +2,7 @@ import React from 'react';
 import Layout from '../components/layout/layout';
 import { Link } from 'gatsby';
 
-const indexPage = () => {
+const IndexPage = () => {
   return (
     <Layout>
       <h1>Great Gatsby Bootcamp</h1>
@@ -12,4 +12,4 @@ const indexPage = () => {
   )
 }
 
-export default indexPage;
+export default IndexPage;
