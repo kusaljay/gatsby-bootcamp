@@ -7,7 +7,8 @@ const Header = () => {
     query{
       site{
         siteMetadata {
-          title
+          title,
+          author
         }
       }
     }
@@ -17,7 +18,7 @@ const Header = () => {
     <header className={headerStyles.header}>
       <h1>
         <Link to="/" className={headerStyles.title}>
-          {data.site.siteMetadata.title}
+          {data.site.siteMetadata.author}'s {data.site.siteMetadata.title}
         </Link>
       </h1>
       <nav>
