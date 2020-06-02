@@ -18,7 +18,7 @@ const BlogPage = () => {
     }
   `);
 
-  console.log(data);
+  //console.log(data);
   //console.log(data.allMarkdownRemark.edges);
 
   const postsList = data.allMarkdownRemark.edges.map(el => {
