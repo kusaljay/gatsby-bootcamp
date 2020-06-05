@@ -21,9 +21,9 @@ const BlogPage = () => {
   //console.log(data);
   //console.log(data.allMarkdownRemark.edges);
 
-  const postsList = data.allMarkdownRemark.edges.map(el => {
+  const postsList = data.allMarkdownRemark.edges.map((el, index) => {
     return (
-      <li>
+      <li key={index}>
         <h2>{el.node.frontmatter.title}</h2>
         <p>{el.node.frontmatter.date}</p>
       </li>

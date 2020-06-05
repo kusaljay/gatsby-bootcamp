@@ -5,9 +5,9 @@ import { Link } from 'gatsby';
 const IndexPage = () => {
   return (
     <Layout>
-      <h1>Great Gatsby Bootcamp</h1>
-      <p>This will be the home page</p>
-      <p>Need a Dev? <Link to="/contact">Contact me</Link></p>
+      <h1>Hello there!</h1>
+      <h2>I'm Kusal, a front-end developer living in Melbourne.</h2>
+      <p>Need a developer? <Link to="/contact">Contact me</Link></p>
     </Layout>
   )
 }
