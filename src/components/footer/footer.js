@@ -2,9 +2,10 @@ import React from 'react';
 import { graphql, useStaticQuery } from 'gatsby';
 
 const Footer = () => {
+
   const data = useStaticQuery(graphql`
     query {
-      site{
+      site {
         siteMetadata {
           author
         }
